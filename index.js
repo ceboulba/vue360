@@ -1,12 +1,12 @@
 console.log('Hello')
 import './style.css'
-const pano = require('./photo360.jpg')
 import * as BABYLON from 'babylonjs'
 const canvas = document.getElementById('renderCanvas')
 
 var engine = new BABYLON.Engine(canvas, true)
 
 var createScene = function() {
+  var img = "./img/photo360.jpg"
   var scene = new BABYLON.Scene(engine)
   var camera = new BABYLON.ArcRotateCamera(
     'Camera',
@@ -25,7 +25,7 @@ var createScene = function() {
 
   var dome = new BABYLON.PhotoDome(
     'testdome',
-    './photo360.jpg',
+    img,
     {
       resolution: 16,
       size: 1000,
