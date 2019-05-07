@@ -1,5 +1,6 @@
 console.log('Hello')
 import './style.css'
+import './img/photo.jpg'
 import * as BABYLON from 'babylonjs'
 const canvas = document.getElementById('renderCanvas')
 
