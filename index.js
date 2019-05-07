@@ -1,4 +1,6 @@
 console.log('Hello')
+import './style.css'
+const pano = require('./photo360.jpg')
 import * as BABYLON from 'babylonjs'
 const canvas = document.getElementById('renderCanvas')
 
