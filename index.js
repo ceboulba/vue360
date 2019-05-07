@@ -24,8 +24,8 @@ var createScene = function() {
 
   var dome = new BABYLON.PhotoDome(
     'testdome',
-    pano,
-    //'./textures/photo360.jpg',
+    //pano,
+    './photo360.jpg',
     {
       resolution: 16,
       size: 1000,
