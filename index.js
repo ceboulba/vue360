@@ -1,6 +1,6 @@
 console.log('Hello')
 import * as BABYLON from 'babylonjs'
-const pano = 'photo360.jpg'
+const pano = './photo360.jpg'
 const canvas = document.getElementById('renderCanvas')
 
 var engine = new BABYLON.Engine(canvas, true)
