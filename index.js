@@ -1,4 +1,5 @@
 console.log('Hello')
+const pano = "https://thenextweb.com/wp-content/blogs.dir/1/files/2015/06/Prague_Getty.jpg"
 import * as BABYLON from 'babylonjs'
 const canvas = document.getElementById('renderCanvas')
 
@@ -23,8 +24,7 @@ var createScene = function() {
 
   var dome = new BABYLON.PhotoDome(
     'testdome',
-    //pano,
-    './photo360.jpg',
+    pano,
     {
       resolution: 16,
       size: 1000,
