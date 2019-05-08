@@ -1,4 +1,3 @@
-console.log('Hello')
 import './style.css'
 import * as BABYLON from 'babylonjs'
 const canvas = document.getElementById('renderCanvas')
