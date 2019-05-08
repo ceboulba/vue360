@@ -1,12 +1,12 @@
 console.log('Hello')
-// import './style.css'
+import './style.css'
 import * as BABYLON from 'babylonjs'
 const canvas = document.getElementById('renderCanvas')
 
 var engine = new BABYLON.Engine(canvas, true)
 
 var createScene = function() {
-  var img = 'https://cdn.eso.org/images/screen/hqe-pano1.jpg'
+  var img = 'http://archipicture.fr/img/ca_pano_01.jpg'
   var scene = new BABYLON.Scene(engine)
   var camera = new BABYLON.ArcRotateCamera(
     'Camera',
