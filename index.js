@@ -10,7 +10,7 @@ var createScene = function() {
   var scene = new BABYLON.Scene(engine)
   var camera = new BABYLON.ArcRotateCamera(
     'Camera',
-    -Math.PI / 2,
+    -Math.PI,
     Math.PI / 2,
     5,
     BABYLON.Vector3.Zero(),
