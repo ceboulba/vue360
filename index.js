@@ -1,7 +1,7 @@
 import './style.css'
 import * as BABYLON from 'babylonjs'
 const canvas = document.getElementById('renderCanvas')
-var img = 'https://res.cloudinary.com/archipicture/image/upload/v1557302160/ca_pano.jpg'
+var img = 'https://res.cloudinary.com/archipicture/image/upload/v1557355560/ca_pano.jpg'
 
 var engine = new BABYLON.Engine(canvas, true)
 
