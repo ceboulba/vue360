@@ -12,7 +12,7 @@ var createScene = function() {
     'Camera',
     -Math.PI / 2,
     Math.PI / 2,
-    - 2,
+    - 3,
     BABYLON.Vector3.Zero(),
     scene
   )
