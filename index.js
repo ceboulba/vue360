@@ -6,7 +6,7 @@ const canvas = document.getElementById('renderCanvas')
 var engine = new BABYLON.Engine(canvas, true)
 
 var createScene = function() {
-  var img = "./ca_pano_01.jpg"
+  var img = 'https://cdn.eso.org/images/screen/hqe-pano1.jpg'
   var scene = new BABYLON.Scene(engine)
   var camera = new BABYLON.ArcRotateCamera(
     'Camera',
