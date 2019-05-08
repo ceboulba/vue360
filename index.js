@@ -28,7 +28,7 @@ var createScene = function() {
     'https://res.cloudinary.com/archipicture/image/upload/v1557277726/ca_pano.jpg',
     {
       resolution: 64,
-      size: 1000,
+      size: 2000,
       useDirectMapping: false,
     },
     scene
