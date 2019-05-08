@@ -18,8 +18,8 @@ var createScene = function() {
   )
   camera.attachControl(canvas, true)
   camera.inputs.attached.mousewheel.detachControl(canvas)
-  camera.lowerAlphaLimit = -1.9
-  camera.upperAlphaLimit = 1.2
+  camera.lowerAlphaLimit = .85
+  camera.upperAlphaLimit = 4.77
 
   let zoomLevel = 2
 
