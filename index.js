@@ -2,7 +2,7 @@ console.log('Hello')
 import './style.css'
 import * as BABYLON from 'babylonjs'
 const canvas = document.getElementById('renderCanvas')
-var img = "https://archipicture.fr/ca_pano.jpg"
+var img = 'https://res.cloudinary.com/archipicture/image/upload/v1557281843/ca_pano.jpg'
 
 var engine = new BABYLON.Engine(canvas, true)
 
@@ -25,7 +25,7 @@ var createScene = function() {
 
   var dome = new BABYLON.PhotoDome(
     'testdome',
-    'https://res.cloudinary.com/archipicture/image/upload/v1557277726/ca_pano.jpg',
+    img,
     {
       resolution: 64,
       size: 2000,
