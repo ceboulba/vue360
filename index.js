@@ -12,14 +12,14 @@ var createScene = function() {
     'Camera',
     -Math.PI / 2,
     Math.PI / 2,
-    - 5,
+    0,
     BABYLON.Vector3.Zero(),
     scene
   )
   camera.attachControl(canvas, true)
   camera.inputs.attached.mousewheel.detachControl(canvas)
-  camera.lowerAlphaLimit = -2.35
-  camera.upperAlphaLimit = 1.66
+  camera.lowerAlphaLimit = -1.9
+  camera.upperAlphaLimit = 1.2
 
   let zoomLevel = 2
 
@@ -27,8 +27,8 @@ var createScene = function() {
     'testdome',
     img,
     {
-      resolution: 256,
-      size: 1000,
+      resolution: 32,
+      size:15,
       useDirectMapping: false,
     },
     scene
