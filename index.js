@@ -18,8 +18,8 @@ var createScene = function() {
   )
   camera.attachControl(canvas, true)
   camera.inputs.attached.mousewheel.detachControl(canvas)
-  camera.lowerAlphaLimit = 1
-  camera.upperAlphaLimit = 4.8
+  camera.lowerAlphaLimit = -2.35
+  camera.upperAlphaLimit = 1.66
 
   let zoomLevel = 2
 
@@ -27,8 +27,8 @@ var createScene = function() {
     'testdome',
     img,
     {
-      resolution: 64,
-      size: 2000,
+      resolution: 256,
+      size: 1000,
       useDirectMapping: false,
     },
     scene
