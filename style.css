@@ -10,5 +10,7 @@
 }
 
 .is-vcentered{
- vertical-align: center;
+display: flex;
+vertical-align: middle;
+justify-content: space-between;
 }
