@@ -25,7 +25,7 @@ var createScene = function() {
 
   var dome = new BABYLON.PhotoDome(
     'testdome',
-    img,
+    'https://archipicture.fr/ca_pano.jpg',
     {
       resolution: 16,
       size: 1000,
